@@ -1,0 +1,26 @@
+diff --git a/Loop/LoopUI/Extensions/Color.swift b/Loop/LoopUI/Extensions/Color.swift
+index f12a2ba7..b69cb1df 100644
+--- a/Loop/LoopUI/Extensions/Color.swift
++++ b/Loop/LoopUI/Extensions/Color.swift
+@@ -37,7 +37,7 @@ extension Color {
+     
+     public static let carbTintColor = carbs
+     
+-    public static let critical = red
++    public static let critical = Color("critical")
+     
+     public static let destructive = critical
+     
+diff --git a/Loop/LoopUI/Extensions/UIColor.swift b/Loop/LoopUI/Extensions/UIColor.swift
+index db638084..ea432a73 100644
+--- a/Loop/LoopUI/Extensions/UIColor.swift
++++ b/Loop/LoopUI/Extensions/UIColor.swift
+@@ -36,7 +36,7 @@ extension UIColor {
+     
+     @nonobjc public static let carbTintColor = carbs
+     
+-    @nonobjc public static let critical = systemRed
++    @nonobjc public static let critical = UIColor(named: "critical") ?? systemRed
+     
+     @nonobjc public static let destructive = critical
+     

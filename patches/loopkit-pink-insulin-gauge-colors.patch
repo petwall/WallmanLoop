@@ -1,0 +1,44 @@
+diff --git a/LoopKit/LoopKitUI/Resources/Assets.xcassets/Darkened Insulin.colorset/Contents.json b/LoopKit/LoopKitUI/Resources/Assets.xcassets/Darkened Insulin.colorset/Contents.json
+index 9d6e4938..3e3b456c 100644
+--- a/LoopKit/LoopKitUI/Resources/Assets.xcassets/Darkened Insulin.colorset/Contents.json	
++++ b/LoopKit/LoopKitUI/Resources/Assets.xcassets/Darkened Insulin.colorset/Contents.json	
+@@ -9,12 +9,12 @@
+       "color" : {
+         "color-space" : "srgb",
+         "components" : {
+-          "red" : "1.000",
++          "red" : "0.859",
+           "alpha" : "1.000",
+-          "blue" : "0.000",
+-          "green" : "0.435"
++          "blue" : "0.467",
++          "green" : "0.153"
+         }
+       }
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/LoopKit/LoopKitUI/Resources/Assets.xcassets/Lightened Insulin.colorset/Contents.json b/LoopKit/LoopKitUI/Resources/Assets.xcassets/Lightened Insulin.colorset/Contents.json
+index 52b9533f..455e9e2b 100644
+--- a/LoopKit/LoopKitUI/Resources/Assets.xcassets/Lightened Insulin.colorset/Contents.json	
++++ b/LoopKit/LoopKitUI/Resources/Assets.xcassets/Lightened Insulin.colorset/Contents.json	
+@@ -9,12 +9,12 @@
+       "color" : {
+         "color-space" : "srgb",
+         "components" : {
+-          "red" : "1.000",
++          "red" : "0.957",
+           "alpha" : "1.000",
+-          "blue" : "0.000",
+-          "green" : "0.749"
++          "blue" : "0.714",
++          "green" : "0.447"
+         }
+       }
+     }
+   ]
+-}
+\ No newline at end of file
++}
